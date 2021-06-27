@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <RootNamespace>Mvrck.ReveriesRoom.Windows.ViewModels</RootNamespace>
+    <AssemblyName>ReveriesRoom.ViewModels</AssemblyName>
+    <OutputPath>..\..\bin\$(Configuration)</OutputPath>
+    <IntermediateOutputPath>..\..\obj\$(MSBuildProjectName)\$(Configuration)</IntermediateOutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ReactiveProperty.WPF" Version="7.11.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ReveriesRoom.Windows.Core\ReveriesRoom.Windows.Core.csproj" />
+  </ItemGroup>
+
+</Project>

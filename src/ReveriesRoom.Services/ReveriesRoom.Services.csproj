@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>Mvrck.ReveriesRoom.Services</RootNamespace>
+    <OutputPath>..\..\bin\$(Configuration)</OutputPath>
+    <IntermediateOutputPath>..\..\obj\$(MSBuildProjectName)\$(Configuration)</IntermediateOutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ReveriesRoom.Services.Interfaces\ReveriesRoom.Services.Interfaces.csproj" />
+  </ItemGroup>
+
+</Project>

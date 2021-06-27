@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <AssemblyName>ReveriesRoom</AssemblyName>
+    <RootNamespace>Mvrck.ReveriesRoom.Windows</RootNamespace>
+    <OutputPath>..\..\bin\$(Configuration)</OutputPath>
+    <IntermediateOutputPath>..\..\obj\$(MSBuildProjectName)\$(Configuration)</IntermediateOutputPath>
+    <Platforms>AnyCPU</Platforms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Prism.DryIoc" Version="8.1.97" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ReveriesRoom.Services\ReveriesRoom.Services.csproj" />
+    <ProjectReference Include="..\ReveriesRoom.Windows.Core\ReveriesRoom.Windows.Core.csproj" />
+    <ProjectReference Include="..\ReveriesRoom.Windows.ViewModels\ReveriesRoom.Windows.ViewModels.csproj" />
+    <ProjectReference Include="..\ReveriesRoom.Windows.Views\ReveriesRoom.Windows.Views.csproj" />
+  </ItemGroup>
+
+</Project>

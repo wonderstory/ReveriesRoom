@@ -3,16 +3,52 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 15.0.26124.0
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReveriesRoom.Windows", "src\ReveriesRoom.Windows\ReveriesRoom.Windows.csproj", "{149B147C-EC58-4B7C-8C69-92707DE75B93}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReveriesRoom.Windows.Core", "src\ReveriesRoom.Windows.Core\ReveriesRoom.Windows.Core.csproj", "{CDA06D48-7C8A-45C8-9117-043EFB651C6C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReveriesRoom.Services", "src\ReveriesRoom.Services\ReveriesRoom.Services.csproj", "{90597AD9-AE97-4388-81C1-E082733D107C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReveriesRoom.Services.Interfaces", "src\ReveriesRoom.Services.Interfaces\ReveriesRoom.Services.Interfaces.csproj", "{1C33D21E-0251-4E85-92C1-9230ADA5856C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReveriesRoom.Windows.Views", "src\ReveriesRoom.Windows.Views\ReveriesRoom.Windows.Views.csproj", "{B49D8AC9-FCCF-4E32-B50D-AC879D8B9288}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReveriesRoom.Windows.ViewModels", "src\ReveriesRoom.Windows.ViewModels\ReveriesRoom.Windows.ViewModels.csproj", "{A1F1A910-D7F5-4123-B696-C053573A6ED7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
-		Debug|x64 = Debug|x64
-		Debug|x86 = Debug|x86
 		Release|Any CPU = Release|Any CPU
-		Release|x64 = Release|x64
-		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{149B147C-EC58-4B7C-8C69-92707DE75B93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{149B147C-EC58-4B7C-8C69-92707DE75B93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{149B147C-EC58-4B7C-8C69-92707DE75B93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDA06D48-7C8A-45C8-9117-043EFB651C6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDA06D48-7C8A-45C8-9117-043EFB651C6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDA06D48-7C8A-45C8-9117-043EFB651C6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDA06D48-7C8A-45C8-9117-043EFB651C6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90597AD9-AE97-4388-81C1-E082733D107C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90597AD9-AE97-4388-81C1-E082733D107C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90597AD9-AE97-4388-81C1-E082733D107C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90597AD9-AE97-4388-81C1-E082733D107C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C33D21E-0251-4E85-92C1-9230ADA5856C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C33D21E-0251-4E85-92C1-9230ADA5856C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C33D21E-0251-4E85-92C1-9230ADA5856C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C33D21E-0251-4E85-92C1-9230ADA5856C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B49D8AC9-FCCF-4E32-B50D-AC879D8B9288}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B49D8AC9-FCCF-4E32-B50D-AC879D8B9288}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B49D8AC9-FCCF-4E32-B50D-AC879D8B9288}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B49D8AC9-FCCF-4E32-B50D-AC879D8B9288}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1F1A910-D7F5-4123-B696-C053573A6ED7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1F1A910-D7F5-4123-B696-C053573A6ED7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1F1A910-D7F5-4123-B696-C053573A6ED7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1F1A910-D7F5-4123-B696-C053573A6ED7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6003F648-32EE-4E40-B820-9E608D1BE782}
 	EndGlobalSection
 EndGlobal

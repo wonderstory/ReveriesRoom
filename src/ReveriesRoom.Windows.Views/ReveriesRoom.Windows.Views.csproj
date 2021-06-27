@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <RootNamespace>Mvrck.ReveriesRoom.Windows.Views</RootNamespace>
+    <AssemblyName>ReveriesRoom.Views</AssemblyName>
+    <OutputPath>..\..\bin\$(Configuration)</OutputPath>
+    <IntermediateOutputPath>..\..\obj\$(MSBuildProjectName)\$(Configuration)</IntermediateOutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ReveriesRoom.Windows.Core\ReveriesRoom.Windows.Core.csproj" />
+  </ItemGroup>
+
+</Project>
