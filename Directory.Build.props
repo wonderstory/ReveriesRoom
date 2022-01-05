@@ -2,10 +2,12 @@
 
   <PropertyGroup>
     <LangVersion>latest</LangVersion>
+    <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <RepoRoot>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\'))</RepoRoot>
     <PathMap>$(RepoRoot)=/</PathMap>
-    <MSBuildProjectExtensionsPath>$(MSBuildThisFileDirectory)obj\$(MSBuildProjectName)</MSBuildProjectExtensionsPath>
+    <BaseOutputPath>$(SolutionDir)\bin\</BaseOutputPath>
+    <BaseIntermediateOutputPath>$(SolutionDir)\obj\$(MSBuildProjectName)\</BaseIntermediateOutputPath>
   </PropertyGroup>
 
 </Project>

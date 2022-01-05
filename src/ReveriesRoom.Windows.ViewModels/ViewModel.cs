@@ -7,15 +7,14 @@ using System.Reactive.Linq;
 using Reactive.Bindings;
 using Mvrck.ReveriesRoom.Windows.Core.Mvvm;
 
-namespace Mvrck.ReveriesRoom.Windows.ViewModels
-{
-    public class ViewModel : ViewModelBase
-    {
-        public ReactivePropertySlim<string> Prop { get; } = new();
+namespace Mvrck.ReveriesRoom.Windows.ViewModels;
 
-        public ViewModel()
-        {
-            Prop.Value = "88888888";
-        }
+public class ViewModel : ViewModelBase
+{
+    public ReactivePropertySlim<string> Prop { get; } = new();
+
+    public ViewModel()
+    {
+        Prop.Value = "88888888";
     }
 }

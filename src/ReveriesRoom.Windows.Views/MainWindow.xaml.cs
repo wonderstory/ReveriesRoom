@@ -12,16 +12,15 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace Mvrck.ReveriesRoom.Windows.Views
+namespace Mvrck.ReveriesRoom.Windows.Views;
+
+/// <summary>
+/// MainWindow.xaml の相互作用ロジック
+/// </summary>
+public partial class MainWindow : Window
 {
-    /// <summary>
-    /// MainWindow.xaml の相互作用ロジック
-    /// </summary>
-    public partial class MainWindow : Window
+    public MainWindow()
     {
-        public MainWindow()
-        {
-            InitializeComponent();
-        }
+        InitializeComponent();
     }
 }

@@ -2,12 +2,10 @@
 
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
-    <TargetFramework>net5.0-windows</TargetFramework>
+    <TargetFramework>net6.0-windows</TargetFramework>
     <UseWPF>true</UseWPF>
     <AssemblyName>ReveriesRoom</AssemblyName>
     <RootNamespace>Mvrck.ReveriesRoom.Windows</RootNamespace>
-    <OutputPath>..\..\bin\$(Configuration)</OutputPath>
-    <IntermediateOutputPath>..\..\obj\$(MSBuildProjectName)\$(Configuration)</IntermediateOutputPath>
     <Platforms>AnyCPU</Platforms>
   </PropertyGroup>
 

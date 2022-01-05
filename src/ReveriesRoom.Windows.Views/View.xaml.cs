@@ -13,16 +13,15 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Mvrck.ReveriesRoom.Windows.Views
+namespace Mvrck.ReveriesRoom.Windows.Views;
+
+/// <summary>
+/// View.xaml の相互作用ロジック
+/// </summary>
+public partial class View : UserControl
 {
-    /// <summary>
-    /// View.xaml の相互作用ロジック
-    /// </summary>
-    public partial class View : UserControl
+    public View()
     {
-        public View()
-        {
-            InitializeComponent();
-        }
+        InitializeComponent();
     }
 }
